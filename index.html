@@ -53,7 +53,25 @@
     a, a:visited {
         color: #003d71;
     }
-    
+    .project {
+        width: 80%;
+        min-width: 800px;
+        height: 100%;
+        margin: 35px auto;
+    }
+    .project:after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .project-image {
+        width: 388px;
+        height: 240px;
+        background: white;
+        float: left;
+        margin-right: 20px;
+        border: 2px solid #dddddd;
+    }
 </style>
 
 </head>
@@ -74,8 +92,8 @@
   </ul>
 </section>
 
-<section>
-   <a target = '_blank' href="https://nmp.carto.com/u/meagan/builder/cca02340-1752-11e7-ab76-0ee66e2c9693/embed"><img src="images/yogapant.png" alt="yoga pant index" /></a>
+<section class="project">
+   <a target = '_blank' href="https://nmp.carto.com/u/meagan/builder/cca02340-1752-11e7-ab76-0ee66e2c9693/embed"><img src="images/yogapant.png" alt="yoga pant index" class="project-image" /></a>
     <h3><a target = '_blank' href="https://nmp.carto.com/u/meagan/builder/cca02340-1752-11e7-ab76-0ee66e2c9693/embed">The Yoga Pant Index</a></h3>
     <p>The map shows the number of Starbucks coffee shops per the number of college educated women ages 18 - 44. It was built using QGIS and published through Carto.</p>
     <ul>
@@ -85,8 +103,8 @@
     </ul>
 </section>
 
-<section>
-   <a target = '_blank' href="#"><img src="images/electrical.png" alt="Electrical Energy Generation for the United States, 2017" /></a>
+<section class="project">
+   <a target = '_blank' href="#"><img src="images/electrical.png" alt="Electrical Energy Generation for the United States, 2017" class="project-image" /></a>
     <h3><a target = '_blank' href="#">Electrical Energy Generation for the United States, 2017</a></h3>
     <p>This map was built with custom JavaScript code drawing upon the Leaflet JavaScript Library, to show electrical energy generation from four different sources</p>
     <ul>
@@ -95,8 +113,8 @@
     </ul>
 </section>
 
-<section>
-   <a target = '_blank' href="#"><img src="images/rentalprice.png" alt="Average Rental Price, 2015 per county" /></a>
+<section class="project">
+   <a target = '_blank' href="#"><img src="images/rentalprice.png" alt="Average Rental Price, 2015 per county" class="project-image" /></a>
     <h3><a target = '_blank' href="#">Average Rental Price, 2015 per county</a></h3>
     <p>This map was built with custom JavaScript code drawing upon the Leaflet JavaScript Library</p>
     <ul>
